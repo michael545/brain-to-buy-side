@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def find_arc_containing_point(angles, target_angle=0.0):
+def find_arc_containing_point(angles, target_angle=0.0): #target_angle is the angle of the point (1,0)
     angles = np.sort(angles)
     arc_lengths = [angles[1] - angles[0], 
                    angles[2] - angles[1], 
