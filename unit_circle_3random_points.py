@@ -1,6 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+'''on a uint 3 random points are chosen along the curcumference of a circle, what is the expected length of the arc containing the point (1,0)'''
+
 def find_arc_containing_point(angles, target_angle=0.0): #target_angle is the angle of the point (1,0)
     angles = np.sort(angles)
     arc_lengths = [angles[1] - angles[0], 
