@@ -37,7 +37,7 @@ plt.axvline(theory_mean, color='blue', linestyle=':', lw=2,
             label=f'Theoretical Mean (H_99): {theory_mean:.4f}')
 plt.title(f'Distribution of Jumps for Frog to Reach 1 from {start_pos}')
 plt.xlabel('Number of Jumps')
-plt.ylabel('Probability Density')
+plt.ylabel('PDF')
 plt.legend()
 plt.grid(True, alpha=0.3)
 plt.show()
