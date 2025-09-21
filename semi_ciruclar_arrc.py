@@ -28,7 +28,7 @@ for _ in range(n_simulations):
 
 simulated_prob = success_count / n_simulations
 
-# For N points, the theoretical probability is N * (1/2)^(N-1).
+# For N points,theroy is is N * (1/2)^(N-1).
 # For 6 points, it's 6 * (1/2)^5 = 6 / 32 = 3 / 16.
 theoretical_prob = 6 * (1/2)**5
 
